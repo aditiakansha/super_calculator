@@ -1,8 +1,14 @@
 # Simple Calculator
+def power(a, b):
+    return a ** b
 
 def add(a, b):
     return a + b
 
+def sqrt(a):
+    if a < 0:
+        return "Error: Cannot take square root of negative number"
+    return a ** 0.5
 def sub(a , b):
     return a - b
 
