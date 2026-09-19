@@ -5,8 +5,10 @@ def power(a, b):
 def add(a, b):
     return a + b
 
-def subtract(a,b):
-    return a - b
+def sqrt(a):
+    if a < 0:
+        return "Error: Cannot take square root of negative number"
+    return a ** 0.5
 
 def multiply(a, b):
     return a * b
